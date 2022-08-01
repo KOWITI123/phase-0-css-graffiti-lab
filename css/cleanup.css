@@ -1,1 +1,16 @@
 /* write your override styles here */
+head {
+    font-size: smaller;
+ font-style: italic ;
+  background: red;
+text-align: center;
+font-family: 'Times New Roman', Times, serif;}
+
+tag-1 {
+    background: url(../images/tag-1.png) no repeat;
+    z-index: 7;
+    display: none;
+
+    #wall .tag-1 {
+    display: none;
+}
